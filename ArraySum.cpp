@@ -11,10 +11,13 @@ using namespace std;
 template <typename T>
 T arraySum(T arr[], int size) {
     // TODO: Initialize a variable to store the sum
-
+    T varsum;
     // TODO: Use a loop to add all elements
-
+    for(unsigned int i = 0; i < size-1; ++i){
+        varsum += arr[i];
+    }
     // TODO: Return the sum
+    return varsum
 }
 
 int main() {

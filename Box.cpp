@@ -4,13 +4,26 @@ private:
     T value;
 
 public:
+
+
     // TODO: Constructor
-
+    Box(){}
+    
+    Box(T v){
+        value = v;
+    }
     // TODO: setValue
-
+    void setValue(T v){
+        value = v;
+    }
     // TODO: getValue
-
+    T getValue(){
+        return value;
+    }
     // TODO: print
+    void print(){
+        cout << "Value is " << value << endl;
+    }
 };
 
 int main()
