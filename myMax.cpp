@@ -10,7 +10,7 @@ t myMax(t val1, t val2){
     if (val2 > val1){
         return val2;
     }
-    return 0 // vals are equal
+    return 0; // vals are equal
 }
 
 int main() {

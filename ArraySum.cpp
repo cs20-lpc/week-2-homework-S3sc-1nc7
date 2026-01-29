@@ -17,7 +17,7 @@ T arraySum(T arr[], int size) {
         varsum += arr[i];
     }
     // TODO: Return the sum
-    return varsum
+    return varsum;
 }
 
 int main() {

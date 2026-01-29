@@ -1,5 +1,3 @@
-#include <iostream>
-
 // TODO: Create a class template named Pair
 // It should accept TWO different data types
 
