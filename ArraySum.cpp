@@ -14,6 +14,10 @@ T arraySum(T arr[], int size) {
     T varsum;
     // TODO: Use a loop to add all elements
     for(unsigned int i = 0; i < size; ++i){
+        if (i == 0){
+            varsum = arr[i]
+            continue;
+        }
         varsum += arr[i];
     }
     // TODO: Return the sum

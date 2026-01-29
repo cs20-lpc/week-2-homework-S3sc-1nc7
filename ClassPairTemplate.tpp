@@ -1,5 +1,4 @@
 // Implement  ClassPairTemplate class constructor and print methods
-#include "ClassPairTemplate.hpp"
 
 template <typename T1, typename T2>
 Pair<T1,T2>::Pair(T1 f, T2 s){

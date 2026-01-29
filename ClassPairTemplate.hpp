@@ -1,7 +1,5 @@
 // TODO: Create a class template named Pair
 // It should accept TWO different data types
-#ifndef ClassPairTemplate.hpp
-#define ClassPairTemplate.hpp
 
 template <typename T1, typename T2>
 class Pair {
@@ -20,5 +18,3 @@ public:
 
 // TO DO: Include implementation file here
 #include "ClassPairTemplate.tpp"
-
-#endif
