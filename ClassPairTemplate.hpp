@@ -1,5 +1,7 @@
 // TODO: Create a class template named Pair
 // It should accept TWO different data types
+#ifndef ClassPairTemplate.hpp
+#define ClassPairTemplate.hpp
 
 template <typename T1, typename T2>
 class Pair {
@@ -9,7 +11,6 @@ private:
 
 public:
     // TODO: Write PROTOTYPE for  constructor that initializes both values
-    Pair();
     Pair(T1 f, T2 s);
     // TODO: Write PROTOTYPE for  function named print()
     void print();
@@ -19,3 +20,5 @@ public:
 
 // TO DO: Include implementation file here
 #include "ClassPairTemplate.tpp"
+
+#endif

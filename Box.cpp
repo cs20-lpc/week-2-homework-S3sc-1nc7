@@ -26,7 +26,7 @@ public:
     }
     // TODO: print
     void print(){
-        cout << "Value is " << value << endl;
+        cout << value << endl;
     }
 };
 
