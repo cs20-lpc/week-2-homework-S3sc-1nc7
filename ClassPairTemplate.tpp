@@ -7,5 +7,5 @@ Pair<T1,T2>::Pair(T1 f, T2 s){
 }
 template <typename T1, typename T2>
 void Pair<T1,T2>::print(){
-    cout << "("<< first << ", " << second << ")" << endl;
+    std::cout << "("<< first << ", " << second << ")" << std::endl;
 }
